@@ -9,7 +9,7 @@ public class Encaps2 {
     public String getEmpName() {
         return empName;
     }
-    public String getEmpAge() {
+    public int getEmpAge() {
         return empAge;
     }
     public void setEmpAge( int newValue) {
@@ -18,7 +18,7 @@ public class Encaps2 {
     public void setEmpName( String newValue) {
         empName = newValue;
     }
-    public void setEmpSsn( String newValue) {
+    public void setEmpSsn( int newValue) {
         ssn = newValue;
     }
 }
